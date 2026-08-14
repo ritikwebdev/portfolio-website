@@ -1227,3 +1227,31 @@
       margin-right: 0 !important
     }
   }
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+
+@media (max-width: 575.98px) {
+
+    .hero-section,
+    main,
+    section {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        margin-left: calc(-0.5 * var(--bs-gutter-x));
+        margin-right: calc(-0.5 * var(--bs-gutter-x));
+    }
+}
